@@ -8,7 +8,7 @@
   --font-size-base: 16px;
   --font-weight-normal: 400;
   --font-family: 'Open Sans', sans-serif;
-  --second-family: 'Raleway', sans-serif;
+  --font-family-title: 'Raleway', sans-serif;
 
   /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
   font-family: var(--font-family);
@@ -73,7 +73,7 @@ main:has(.back-link) {
 .button {
   font-weight: 600;
   font-size: 12px;
-  letter-spacing: 0.09em;
+  /* letter-spacing: 0.09em; */
   text-transform: uppercase;
   color: var(--primary-color);
   background-color: transparent;
@@ -88,11 +88,11 @@ main:has(.back-link) {
   background-color: var(--hover-color);
 }
 .title-second {
-  color: #303030;
+  /* color: #303030; */
 
   font-family: var(--second-family);
   font-weight: 700;
-  font-size: 72px;
+  font-size: 42px;
   letter-spacing: 0.05em;
   color: #fff;
 }
@@ -116,4 +116,14 @@ main:has(.back-link) {
   & .text-bottom {
     color: var(--text-color);
   }
+}
+.social-network {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--secondary-color);
+}
+.social-network:hover,
+.social-network:focus {
+  color: var(--hover-color);
 }

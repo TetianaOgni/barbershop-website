@@ -1,0 +1,14 @@
+.quantity {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: var(--secondary-color);
+}
+.feedback {
+  font-weight: 600;
+  font-size: 11px;
+  text-align: center;
+  color: var(--secondary-color);
+}

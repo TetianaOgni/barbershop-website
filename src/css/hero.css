@@ -1,0 +1,32 @@
+.hero {
+  background-color: var(--secondary-color);
+}
+.container {
+}
+.hero-list {
+}
+.hero-item {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+}
+.hero-item:hover,
+.hero-item:focus {
+  color: var(--hover-color);
+}
+
+.hero-link {
+}
+.hero .text-top {
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+.hero .text-bottom {
+  color: #9da4bd;
+}

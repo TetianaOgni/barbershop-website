@@ -1,0 +1,9 @@
+.services {
+  background-color: var(--secondary-color);
+}
+.text-top .dark {
+  color: rgba(157, 164, 189, 0.6);
+}
+.title-second .dark {
+  color: var(--primary-color);
+}

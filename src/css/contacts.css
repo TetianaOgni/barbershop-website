@@ -1,0 +1,15 @@
+.section-contacts {
+  background-color: var(--secondary-color);
+}
+.address {
+  font-weight: 700;
+}
+.contacts-third-title {
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.email {
+  text-decoration: underline;
+}

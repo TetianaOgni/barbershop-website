@@ -1,0 +1,14 @@
+.barbers-name-title {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+  color: var(--secondary-color);
+}
+.barbers-text {
+  /* font-weight: 400; */
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+  color: var(--hover-color);
+}

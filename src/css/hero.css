@@ -20,9 +20,10 @@
 .hero-title {
   font-family: var(--font-family-title);
   font-weight: 700;
-  font-size: 150px;
+  font-size: 72px;
   letter-spacing: 0.05em;
-  color: #fff;
+  color: var(--primary-color);
+  margin-bottom: 20px;
 }
 .hero .text-bottom {
   color: #9da4bd;

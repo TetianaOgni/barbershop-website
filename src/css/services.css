@@ -1,9 +1,17 @@
-.services {
+.section-services {
+  padding: 120px 0;
   background-color: var(--secondary-color);
 }
+
 .text-top .dark {
   color: rgba(157, 164, 189, 0.6);
 }
 .title-second .dark {
   color: var(--primary-color);
+}
+.services-title {
+  margin: 44px;
+}
+.services-table {
+  margin: 44px;
 }

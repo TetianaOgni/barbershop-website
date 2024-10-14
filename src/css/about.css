@@ -1,3 +1,9 @@
+.section-about {
+  padding: 120px 0;
+}
+.about-text {
+  margin-bottom: 42px;
+}
 .about-button {
   color: var(--secondary-color);
   /* background-color: var(--primary-color); */

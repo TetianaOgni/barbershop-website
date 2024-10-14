@@ -46,13 +46,17 @@ main:has(.back-link) {
   text-align: center;
 }
 /* class */
-
+.section {
+  /* min-width: 1600px;
+  outline: 1px solid green; */
+}
 .text-top {
   font-weight: 600;
   font-size: 11px;
   text-transform: uppercase;
   /* color: var(--secondary-color); */
   color: var(--color-text-top);
+  margin-bottom: 20px;
 }
 .text-bottom {
   /* font-weight: 400; */
@@ -60,6 +64,7 @@ main:has(.back-link) {
   line-height: 1.66;
   letter-spacing: 0.02em;
   color: var(--color-text-bottom);
+  margin-bottom: 20px;
 }
 .text {
   /* font-weight: 400; */
@@ -96,6 +101,7 @@ main:has(.back-link) {
   font-size: 42px;
   letter-spacing: 0.05em;
   color: #fff;
+  margin-bottom: 20px;
 }
 /* .light .text-top {
   color: var(--secondary-color);

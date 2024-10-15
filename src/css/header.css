@@ -2,22 +2,27 @@
   background-color: rgb(61, 59, 59);
   padding: 32px 0;
 }
-
-/* .nav {
+.header-wrapper {
   display: flex;
   justify-content: space-between;
-} */
-.nav-logo {
-  color: var(--secondary-color);
-  /* display: inline-flex;
   align-items: center;
-  justify-content: center; */
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  /* color: var(--secondary-color); */
+  margin-right: 130px;
 }
 .nav-list {
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 0.1em;
-  color: #fff;
+  display: flex;
+  gap: 30px;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -34,6 +39,9 @@
 .header-tel:hover,
 .header-tel:focus {
   color: var(--hover-color);
+}
+.header-tel {
+  margin-right: 44px;
 }
 .header-button {
   display: inline-block;

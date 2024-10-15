@@ -61,7 +61,7 @@ main:has(.back-link) {
 .text-bottom {
   /* font-weight: 400; */
   font-size: 18px;
-  line-height: 1.66;
+  line-height: 1.67;
   letter-spacing: 0.02em;
   color: var(--color-text-bottom);
   margin-bottom: 20px;
@@ -69,7 +69,7 @@ main:has(.back-link) {
 .text {
   /* font-weight: 400; */
   font-size: 14px;
-  line-height: 1.85;
+  line-height: 1.86;
   letter-spacing: 0.02em;
 
   color: var(--text-color);
@@ -79,7 +79,7 @@ main:has(.back-link) {
   font-family: inherit;
   font-weight: 600;
   font-size: 12px;
-  /* letter-spacing: 0.09em; */
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--primary-color);
   background-color: transparent;

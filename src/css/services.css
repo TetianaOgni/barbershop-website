@@ -10,8 +10,30 @@
   color: var(--primary-color);
 }
 .services-title {
-  margin: 44px;
+  margin-bottom: 44px;
+}
+
+.services-table-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 44px;
+
+  /* outline: 1px solid white; */
 }
 .services-table {
-  margin: 44px;
+  margin: 0;
+  outline: 1px solid white;
+  width: calc((100% - 1 * 30px) / 2);
+  padding: 30px 20px;
+}
+.services-table tr td:first-child {
+  text-align: left;
+}
+
+.services-table tr td:last-child {
+  text-align: right;
+}
+.services-button {
+  display: block;
+  margin: 0 auto;
 }

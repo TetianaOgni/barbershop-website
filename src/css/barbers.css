@@ -8,6 +8,15 @@
   /* text-align: center; */
   color: var(--secondary-color);
 }
+.barbers-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.barbers-item {
+  width: calc((100% - 2 * 30) / 3);
+}
 .barbers-text {
   /* font-weight: 400; */
   font-size: 14px;

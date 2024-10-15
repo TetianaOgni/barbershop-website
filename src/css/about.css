@@ -1,6 +1,21 @@
 .section-about {
   padding: 120px 0;
 }
+.about-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.about-text-wrapper {
+  max-width: 470px;
+}
+.about-img-list {
+  display: flex;
+  gap: 30px;
+}
+/* .about-img-item {
+  width: 270px;
+  height: 445px;
+} */
 .about-text {
   margin-bottom: 42px;
 }

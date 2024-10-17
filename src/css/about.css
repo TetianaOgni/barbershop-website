@@ -12,10 +12,10 @@
   display: flex;
   gap: 30px;
 }
-/* .about-img-item {
+.about-img-item {
   width: 270px;
   height: 445px;
-} */
+}
 .about-text {
   margin-bottom: 42px;
 }

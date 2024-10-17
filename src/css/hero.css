@@ -33,6 +33,7 @@
   padding-right: 28px;
   padding-left: 58px;
 }
+
 .hero-dark-wrapper {
   background-color: var(--secondary-color);
   width: 100%;
@@ -43,6 +44,7 @@
   font-family: var(--font-family-title);
   font-weight: 700;
   font-size: 72px;
+  line-height: 1.18;
   letter-spacing: 0.05em;
   margin-bottom: 20px;
 }

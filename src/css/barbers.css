@@ -1,5 +1,6 @@
 .section-barbers {
   padding: 120px 0;
+  background-color: var(--color-background-grey);
 }
 .barbers-name-title {
   font-weight: 400;

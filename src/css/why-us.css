@@ -8,11 +8,9 @@
 }
 .why-us-list {
   display: grid;
-  /* justify-content: center; */
   grid-template-columns: repeat(2, 170px);
   grid-template-rows: repeat(2, 163px);
   column-gap: 30px;
-  /* height: 330px; */
   align-self: center;
 }
 .why-us-item {
@@ -49,4 +47,5 @@
 }
 .why-us-text-wrapper {
   max-width: 500px;
+  padding-top: 10px;
 }

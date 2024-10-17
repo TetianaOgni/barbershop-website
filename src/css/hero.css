@@ -22,11 +22,20 @@
 .hero-list {
   display: flex;
   width: 100px;
-  /* flex-direction: column-reverse; */
+  flex-direction: column-reverse;
+  /* flex-direction: column; */
+
+  gap: 40px;
+}
+.hero-item {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  padding-right: 28px;
+  padding-left: 58px;
 }
 .hero-dark-wrapper {
   background-color: var(--secondary-color);
-  /* width: 100%; */
+  width: 100%;
   flex-grow: 1;
   padding: 227px 100px 208px;
 }

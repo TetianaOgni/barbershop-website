@@ -1,7 +1,15 @@
 .section-footer {
   padding: 62px 0 56px 0;
 }
-
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-list {
+  display: flex;
+  gap: 40px;
+}
 .copyright {
   font-weight: 600;
   font-size: 11px;

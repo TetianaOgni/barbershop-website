@@ -4,8 +4,11 @@
   --hover-color: #ff6c00;
   --text-color: #555;
   --color-text-top: rgba(157, 164, 189, 0.6);
+  --color-line: rgba(157, 164, 189, 0.4);
   --color-text-bottom: #9da4bd;
   --color-background-grey: #f7f7f7;
+  --color-background-booking: #191c26;
+  --color-background-services: #111319;
   --font-size-base: 16px;
   --font-weight-normal: 400;
   --font-family: 'Open Sans', sans-serif;
@@ -48,17 +51,26 @@ main:has(.back-link) {
 }
 /* class */
 .section {
-  /* min-width: 1600px;
-  outline: 1px solid green; */
+  min-width: 1600px;
+  outline: 1px solid rgb(11, 247, 11);
 }
 .text-top {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   text-transform: uppercase;
-  /* color: var(--secondary-color); */
   color: var(--color-text-top);
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.text-top::before {
+  width: 60px;
+  height: 1px;
+  background-color: var(--color-text-top);
+  content: '';
 }
 .text-bottom {
   /* font-weight: 400; */
@@ -104,9 +116,10 @@ main:has(.back-link) {
   font-size: 42px;
   line-height: 1.17;
   letter-spacing: 0.05em;
-  color: #fff;
+  color: var(--primary-color);
   margin-bottom: 20px;
 }
+
 /* .light .text-top {
   color: var(--secondary-color);
 }
@@ -122,6 +135,9 @@ main:has(.back-link) {
 
   & .text-top {
     color: var(--secondary-color);
+  }
+  & .text-top::before {
+    background-color: var(--secondary-color);
   }
   & .title-second {
     color: var(--secondary-color);

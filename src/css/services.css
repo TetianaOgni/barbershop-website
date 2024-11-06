@@ -1,6 +1,12 @@
 .section-services {
   padding: 120px 0;
-  background-color: var(--secondary-color);
+  background-color: var(--color-background-services);
+  background-image: url('/img/background/bckgr-services.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .text-top .dark {
@@ -25,6 +31,18 @@
   outline: 1px solid white;
   width: calc((100% - 1 * 30px) / 2);
   padding: 30px 20px;
+  table-layout: auto;
+}
+
+.services-table-row {
+  display: flex;
+  /* justify-content: baseline; */
+}
+.services-table:first-child {
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+.services-table:last-child {
+  background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
 }
 .services-table tr td:first-child {
   text-align: left;
@@ -32,6 +50,29 @@
 
 .services-table tr td:last-child {
   text-align: right;
+}
+.services-tabdate {
+  position: relative;
+  width: 100%;
+}
+
+.services-tabdate::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  /* right: 12px; */
+  bottom: 9px;
+  text-align: end;
+  margin-left: 12px;
+  background-color: rgba(157, 164, 189, 0.12);
+}
+
+.prices-tabdate {
+  display: inline-block;
+  white-space: nowrap;
+  /* width: auto; */
+  padding: 0;
 }
 .services-button {
   display: block;

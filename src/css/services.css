@@ -1,7 +1,7 @@
 .section-services {
   padding: 120px 0;
   background-color: var(--color-background-services);
-  background-image: url('/img/background/bckgr-services.png');
+  background-image: url('../img/background/bckgr-services.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

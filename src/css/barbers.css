@@ -35,8 +35,6 @@
 .barbers-icons-list {
   display: flex;
   gap: 10px;
-  /* justify-items: center;
-  align-items: center; */
 }
 .barbers-social-link {
   display: flex;
@@ -49,7 +47,6 @@
 }
 .barbers-icons-svg {
   fill: var(--secondary-color);
-  /* fill: currentColor; */
 }
 .barbers-social-link:hover .barbers-icons-svg {
   fill: var(--hover-color);

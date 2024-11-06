@@ -9,7 +9,20 @@
 .footer-list {
   display: flex;
   gap: 40px;
+  align-items: end;
 }
+.footer-instagram {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer-instagram::before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: currentColor;
+}
+
 .copyright {
   font-weight: 600;
   font-size: 11px;

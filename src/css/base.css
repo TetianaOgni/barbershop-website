@@ -103,6 +103,8 @@ main:has(.back-link) {
   height: 40px;
   border: 1px solid var(--hover-color);
   border-radius: 25px;
+
+  transition: background-color 500ms ease-in, color 500ms ease-in;
 }
 .button:hover,
 .button:focus {
@@ -153,6 +155,8 @@ main:has(.back-link) {
   line-height: 1.36;
   letter-spacing: 0.2em;
   color: var(--secondary-color);
+
+  transition: color 500ms ease-out;
 }
 .social-network:hover,
 .social-network:focus {

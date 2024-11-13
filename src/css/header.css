@@ -28,6 +28,10 @@
   display: flex;
   gap: 30px;
 }
+
+.nav-link {
+  transition: color 500ms ease-out;
+}
 .nav-link:hover,
 .nav-link:focus {
   color: var(--hover-color);
@@ -46,6 +50,8 @@
 }
 .header-tel {
   margin-right: 44px;
+
+  transition: color 500ms ease-out;
 }
 .header-button {
   display: inline-block;

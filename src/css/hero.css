@@ -14,13 +14,9 @@
 /* .hero .text-top {
   color: rgba(157, 164, 189, 0.6);
 } */
-.section-hero {
-  /* position: relative; */
-}
 
 .hero-wrapper {
   display: flex;
-  /* position: relative; */
 }
 
 .hero-list {

@@ -23,9 +23,17 @@
   display: flex;
   width: 100px;
   flex-direction: column-reverse;
-  gap: 40px;
+  /* gap: 40px; */
   align-items: center;
   padding-bottom: 40px;
+}
+.hero-list::before {
+  content: '';
+  width: 1px;
+  height: 60px;
+  background-color: var(--secondary-color);
+  position: relative;
+  right: 14px;
 }
 
 .hero-item {
@@ -33,6 +41,7 @@
   transform: rotate(180deg);
   padding-right: 28px;
   padding-left: 58px;
+  padding-top: 40px;
 }
 
 .hero-dark-wrapper {

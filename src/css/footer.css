@@ -16,11 +16,19 @@
   align-items: center;
   gap: 40px;
 }
-.footer-instagram::before {
+/* .footer-instagram::before {
   content: '';
   width: 60px;
   height: 1px;
   background-color: currentColor;
+} */
+.footer-list::before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  background-color: var(--secondary-color);
+  position: relative;
+  top: -6px;
 }
 
 .copyright {

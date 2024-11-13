@@ -13,17 +13,21 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/barbershop-website/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/barbershop-website/assets/styles-133RoWMh.css">
+    <link rel="stylesheet" crossorigin href="/barbershop-website/assets/styles-BOJPndsG.css">
   </head>
   <body>
     <header class="section section-header">
-  <div class="container">
+  <div class="container header-container">
     <div class="header-wrapper">
       <nav class="nav">
         <a class="header-logo">
@@ -64,7 +68,7 @@
         <li class="hero-item">
           <a
             href=""
-            class="hero-link social-network"
+            class="hero-link social-network social-network-instagram"
             target="_blank"
             rel="noopener noreferrer"
             >Instagram</a
@@ -83,7 +87,11 @@
 
       <div class="hero-dark-wrapper hero-background">
         <p class="text-top">A hair salon for men in Kyiv</p>
-        <h1 class="hero-title">BarberShop</h1>
+        <h1
+          class="hero-title animate__animated animate__slideInLeft animate__slower"
+        >
+          BarberShop
+        </h1>
         <p class="text-bottom">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
@@ -391,7 +399,7 @@
   </div>
 </section>
 
-      <section class="section section-contacts">
+      <!-- <section class="section section-contacts">
   <div class="container">
     <div class="contacts-wrapper">
       <div class="contacts-booking">
@@ -433,9 +441,55 @@
       </div>
     </div>
   </div>
-</section>
-
-<div class="contact-wrap">
+</section> -->
+<div class="booking-contacts-wrapper">
+  <div class="contacts-wrap">
+    <div class="container">
+      <section class="section-booking">
+        <div class="contacts-booking booking-wrapper">
+          <h2 class="title-second">Online-booking</h2>
+          <form action=""></form>
+          <button type="submit" class="button">Send</button>
+        </div>
+      </section>
+      <section class="section-contacts">
+        <div class="contacts-text-wrapper">
+          <h2 class="title-second">Contacts</h2>
+          <address class="text-bottom">
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <a
+                  class="contacts-link-address"
+                  href="https://maps.app.goo.gl/J4AojnKFB7NQ9tjQ6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  st. Vasilkivska, 7A Kyiv, 08132
+                </a>
+              </li>
+              <li class="contacts-item">
+                <a class="contacts-link-tel" href="tel:+38 044 111 11 11"
+                  >+38 044 111 11 11</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a
+                  class="contacts-link-email"
+                  href="mailto:barbershop@email.com"
+                  class="email"
+                  >barbershop@email.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <h3 class="contacts-third-title">Working hours</h3>
+          <p class="text-bottom">Every day from 9:00 to 22:00</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- <div class="contact-wrap">
   <div class="container">
     <section class="online">
       <h2 class="online-title title">Online-booking</h2>
@@ -470,7 +524,7 @@
       <p class="contacts-schedule">Every day from 9:00 to 22:00</p>
     </section>
   </div>
-</div>
+</div> -->
 
     </main>
 
@@ -480,7 +534,11 @@
       <p class="footer-text copyright">&copy; copyright 2020</p>
       <ul class="footer-list">
         <li>
-          <a href="" class="social-network">Instagram</a>
+          <a
+            href=""
+            class="social-network social-network-instagram footer-instagram"
+            >Instagram</a
+          >
         </li>
         <li>
           <a href="" class="social-network">Youtube</a>

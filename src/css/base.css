@@ -52,6 +52,7 @@ main:has(.back-link) {
 /* class */
 .section {
   min-width: 1600px;
+  /* max-width: 1600px; */
   outline: 1px solid rgb(11, 247, 11);
 }
 .text-top {

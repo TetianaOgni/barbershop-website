@@ -1,6 +1,6 @@
 /* .container {
-}
-.hero-list {
+} */
+/* .hero-list {
 }
 .hero-item {
 } */
@@ -14,8 +14,13 @@
 /* .hero .text-top {
   color: rgba(157, 164, 189, 0.6);
 } */
+.section-hero {
+  position: relative;
+}
+
 .hero-wrapper {
   display: flex;
+  /* position: relative; */
 }
 
 .hero-list {
@@ -65,6 +70,7 @@
   line-height: 1.18;
   letter-spacing: 0.05em;
   margin-bottom: 20px;
+  --animate-duration: 500ms;
 }
 .section-hero .text-bottom {
   max-width: 360px;

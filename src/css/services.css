@@ -54,14 +54,17 @@
 .services-tabdate {
   position: relative;
   width: 100%;
+  display: flex;
+  align-items: end;
 }
 
 .services-tabdate::after {
   content: '';
-  position: absolute;
-  width: 100%;
+  /* position: absolute; */
+  /* width: 100%; */
+  flex-grow: 1;
   height: 1px;
-  /* right: 12px; */
+  margin-right: 12px;
   bottom: 9px;
   text-align: end;
   margin-left: 12px;
@@ -69,6 +72,8 @@
 }
 
 .prices-tabdate {
+  position: relative;
+  /* background-color: black; */
   display: inline-block;
   white-space: nowrap;
   /* width: auto; */

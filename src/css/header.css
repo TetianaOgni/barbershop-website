@@ -1,8 +1,10 @@
 .section-header {
-  background-color: rgb(61, 59, 59);
+  /* background-color: rgb(61, 59, 59); */
   padding: 32px 0;
 }
+
 .header-wrapper {
+  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;

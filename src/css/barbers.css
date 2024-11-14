@@ -36,6 +36,7 @@
   display: flex;
   gap: 10px;
 }
+
 .barbers-social-link {
   display: flex;
   justify-content: center;
@@ -47,6 +48,9 @@
 }
 .barbers-icons-svg {
   fill: var(--secondary-color);
+}
+.barbers-social-link .barbers-icons-svg {
+  transition: fill 300ms ease-out;
 }
 .barbers-social-link:hover .barbers-icons-svg {
   fill: var(--hover-color);

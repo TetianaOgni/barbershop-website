@@ -30,6 +30,7 @@
   padding: 0 15px;
 }
 .quantity {
+  position: relative;
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 42px;
@@ -37,6 +38,32 @@
   letter-spacing: 0.05em;
   text-align: center;
   color: var(--secondary-color);
+}
+.quantity::after {
+  content: '+';
+  font-weight: 600;
+  font-size: 16px;
+
+  color: var(--hover-color);
+  position: absolute;
+  top: 10px;
+  animation-name: pulse-for-plus;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+}
+.why-us-item:nth-child(1) .quantity::after {
+  animation-timing-function: ease-out;
+}
+
+.why-us-item:nth-child(2) .quantity::after {
+  animation-timing-function: ease-in;
+}
+.why-us-item:nth-child(3) .quantity::after {
+  animation-timing-function: ease-out;
+}
+
+.why-us-item:nth-child(4) .quantity::after {
+  animation-timing-function: ease-in;
 }
 .feedback {
   font-weight: 600;
@@ -48,4 +75,15 @@
 .why-us-text-wrapper {
   max-width: 500px;
   padding-top: 10px;
+}
+@keyframes pulse-for-plus {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
